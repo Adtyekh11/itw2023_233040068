@@ -8,6 +8,7 @@ body{
     font:16px/28px arial;
     background-color: #eaeaea;
     color: #333;
+    background-image: url(hero.jpg);
 }
 .header{
     padding: 20px;
@@ -36,8 +37,12 @@ body{
 }
 
 .hero{
-    height: 250px;
+    height: 350px;
     background-image:url(img/hero.jpg) ;
+    background-size: cover;
+    background-position: 0 -80px;
+    border-top:5px solid lightskyblue;
+    border-bottom:5px solid salmon;
 }
 
 .content{
@@ -63,4 +68,16 @@ body{
 .content p{
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+.footer{
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    
 }
