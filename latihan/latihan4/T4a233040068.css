@@ -8,7 +8,7 @@ body{
     font:16px/28px arial;
     background-color: #eaeaea;
     color: #333;
-    background-image: url(hero.jpg);
+    background-image: url(../latihan3/img/moroccan.png);
 }
 .header{
     padding: 20px;
@@ -38,11 +38,16 @@ body{
 
 .hero{
     height: 350px;
-    background-image:url(img/hero.jpg) ;
     background-size: cover;
-    background-position: 0 -80px;
+    background-image: url(../latihan3/img/hero.jpg);
+    background-position: 0 -65px;
     border-top:5px solid lightskyblue;
     border-bottom:5px solid salmon;
+
+}
+
+.hero img{
+    weight:20px;
 }
 
 .content{
@@ -81,3 +86,4 @@ body{
     font-size: 12px;
     
 }
+
