@@ -1,0 +1,108 @@
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: lightblue;
+}
+
+body{
+    font:16px/28px arial;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(pattern2.webp);
+}
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold ;
+}
+
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover{
+    background-color:black;
+    color: white;
+}
+
+.hero{
+    height: 400px;
+    background-image:url(hero.jpg) ;
+    background-size: cover;
+    background-position: 0 -90px;
+    border-top:5px solid blue;
+    border-bottom:5px solid blue;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -15px;
+}
+
+
+.content .penulis a{
+    color: blue;
+    text-decoration: none;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.footer{
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+
+.hero2{
+    height: 350px;
+    background-image:url(hero2.jpeg) ;
+    background-size: cover;
+    background-position: 0 -50px;
+    border-top:5px solid blue;
+    border-bottom:5px solid blue;
+}
+
+.content .link:hover {
+    color: white;
+    
+
+}
+
+
+.content .link{
+    color: blue;
+    text-decoration: none;
+    font-size: medium;
+}

@@ -8,6 +8,7 @@ body{
     font:16px/28px arial;
     background-color: #eaeaea;
     color: #333;
+    background-image: url(../latihan3/img/moroccan.png);
 }
 .header{
     padding: 20px;
@@ -36,8 +37,17 @@ body{
 }
 
 .hero{
-    height: 250px;
-    background-image:url(img/hero.jpg) ;
+    height: 350px;
+    background-size: cover;
+    background-image: url(../latihan3/img/hero.jpg);
+    background-position: 0 -65px;
+    border-top:5px solid lightskyblue;
+    border-bottom:5px solid salmon;
+
+}
+
+.hero img{
+    weight:20px;
 }
 
 .content{
@@ -64,3 +74,16 @@ body{
     margin-bottom: 20px;
     font-size: 18px;
 }
+
+.footer{
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
